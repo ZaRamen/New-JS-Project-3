@@ -109,7 +109,7 @@ img
 }
     .wrapper
 {
-    justify-content: none;
+    justify-content: start;
     
 }
   }
