@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <main>  
+         <h1>Fighter Game</h1>
+         <ol>
+            <li>Play this game by pressing fight or defend. When the opponent's fatigue is less than or equal to 0 use the finishing move to defeat your opponent</li>
+         </ol>
+            <div class="wrapper">
+            <div class="display player">
+                <h2>Player</h2>
+                <h2>Stats</h2>
+                <img src="./images/Kirby.png" alt="kirby">
+                <div id="player-stats">
+                    <table role="shows player stats" id="player-stats-table">
+                        <tr>
+                            <th>Stats</th>
+                            <th>Original</th>
+                            <th>Current</th>
+                        </tr>
+                        
+                    </table>
+                </div>
+                <div id="player-log">
+                    <!-- <p id="player-log-info"></p> -->
+                </div>
+                
+                <div class="options">
+                    <button id="fight">Fight</button>
+                    <button id="defend">Defend</button>
+                    <br><br>
+                    <button id="finisher">Finishing Move</button>
+                </div>
+            </div>
+            
+
+            <div class="display computer">
+                <h2>Computer</h>
+                <h2>Stats</h2> 
+                <img src="./images/metaknight.png" alt="meta knight">
+                <div id="computer-stats">
+                    <table role="shows computer stats"id="computer-stats-table">
+                        <tr>
+                            <th>Stats</th>
+                            <th>Original</th>
+                            <th>Current</th>
+                        </tr>
+                        
+                    </table>
+                </div>
+                <div id="computer-log">
+                </div>
+                
+            </div>
+        </div>
+    </main>
+    <footer>
+        Made by Raymond Lin 
+    </footer>
+    
+
+</body>
+</html>
