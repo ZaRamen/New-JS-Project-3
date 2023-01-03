@@ -100,16 +100,16 @@ img
 
 @media only screen and (max-width: 800px) {
     #player-stats, #computer-stats
-{
-    width: 80%;
-    font-size: 20px;
-    height: 200px;
-    margin: 0;
-    margin-bottom: 30px;
-}
+    {
+        width: 80%;
+        font-size: 20px;
+        height: 200px;
+        margin: 0;
+        margin-bottom: 30px;
+    }
     .wrapper
-{
-    justify-content: start;
-    
-}
+    {
+        justify-content: start;
+        flex-direction: column;
+    }
   }
