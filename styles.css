@@ -107,4 +107,9 @@ img
     margin: 0;
     margin-bottom: 30px;
 }
+    .wrapper
+{
+    justify-content: none;
+    
+}
   }
